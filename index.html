@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>freeCodeCamp URL Shortener Microservice Project</title>
+  </head>
+  <body>
+  <h1>
+    freeCodeCamp URL Shortener Microservice Project
+  </h1>
+  <h2>
+    User Stories:
+  </h2>
+  <ul>
+    <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+    <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+    <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+  </ul>
+  <h2>
+    Example URL Creation Usage:
+  </h2>
+  <ul>
+    <li><a href="https://shorterurl.glitch.me/new/https://www.google.com">https://shorterurl.glitch.me/new/https://www.google.com</a></li>
+    <li><a href="https://shorterurl.glitch.me/new/http://foo.com:80">https://shorterurl.glitch.me/new/http://foo.com:80</a></li>
+  </ul>
+  <h2>
+    Example Output:
+  </h2>
+  <ul>
+    <li>{"original url":"https://www.reddit.com/","shorterURL":"https://shorterurl.glitch.me/1003"}</li>
+  </ul>
+  <h2>
+  Shortened URL Usage:
+  </h2>
+  <ul>
+    <li><a href="https://shorterurl.glitch.me/1000">https://shorterurl.glitch.me/1000</a> redirects to https://www.google.com/</li>
+  </ul>
+  </body>
+</html>
